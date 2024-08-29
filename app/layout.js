@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <body>
         <DynamicContextProvider
           settings={{
-            environmentId: "YOUR_ENVIRONMENT_ID",
+            environmentId: process.env.NEXT_PUBLIC_DYNAMIC_ENV_ID,
             walletConnectors: [EthereumWalletConnectors],
           }}
         >
