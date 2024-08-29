@@ -10,9 +10,11 @@ export default function ClientWrapper({ children }) {
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-blue-50">
-        <img
+        <Image
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%5BWordmark-primary%5D%20(2)-jSotf5LNO2iZLyHlkThBAGhwR2fVCb.svg"
           alt="Dynamic Logo"
+          width={200}
+          height={32}
           className="h-8 w-auto mb-6"
         />
         {user ? (
