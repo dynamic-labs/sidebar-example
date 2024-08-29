@@ -1,6 +1,7 @@
 'use client';
 
-import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
+import { useDynamicContext, DynamicWidget } from "@dynamic-labs/sdk-react-core";
+import Image from 'next/image';
 
 export default function ClientWrapper({ children }) {
   const { user, setShowAuthFlow } = useDynamicContext();
