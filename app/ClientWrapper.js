@@ -46,10 +46,10 @@ export default function ClientWrapper({ children }) {
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             <div className="px-4 py-6 sm:px-0">
               <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-                Dynamic's Sidebar Widget
+                Dynamic&apos;s Sidebar Widget
               </h1>
               <p className="mt-5 text-xl text-gray-500">
-                Experience the future of Web3 interactions with Dynamic's sleek Sidebar Widget. Inspired by industry leaders like Uniswap, Phantom, and Zerion, we've created a compact, comprehensive wallet control panel that seamlessly integrates with your website.
+                Experience the future of Web3 interactions with Dynamic&apos;s sleek Sidebar Widget. Inspired by industry leaders like Uniswap, Phantom, and Zerion, we&apos;ve created a compact, comprehensive wallet control panel that seamlessly integrates with your website.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 {user ? (
@@ -95,13 +95,13 @@ export default function ClientWrapper({ children }) {
               <div>
                 <h3 className="text-lg font-medium text-gray-900">Enhanced User Experience</h3>
                 <p className="mt-2 text-base text-gray-500">
-                  Our sidebar widget offers quick access to essential wallet functionalities without disrupting your main content. It's designed for smooth, intuitive interactions, making Web3 transactions easier than ever.
+                  Our sidebar widget offers quick access to essential wallet functionalities without disrupting your main content. It&apos;s designed for smooth, intuitive interactions, making Web3 transactions easier than ever.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-medium text-gray-900">Easy Integration</h3>
                 <p className="mt-2 text-base text-gray-500">
-                  Set up your sidebar widget in just a minute! With a few lines of custom CSS, you can transform your wallet interface into a modern, animated sidebar that perfectly aligns with your website's design.
+                  Set up your sidebar widget in just a minute! With a few lines of custom CSS, you can transform your wallet interface into a modern, animated sidebar that perfectly aligns with your website&apos;s design.
                 </p>
               </div>
             </div>
