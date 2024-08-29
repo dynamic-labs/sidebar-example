@@ -53,15 +53,25 @@ export default function RootLayout({ children }) {
       left: auto !important;
     }
 
-    .modal-card {
-      border-radius: 0 !important;
+    .wallet-list__scroll-container {
+      max-height: 80vh !important;
     }
 
-    .social-redirect-view__container, .wallet-no-access__container, .pending-signature__container {
+      .settings-view__body {
+        height: auto !important;
+    }
+
+    .modal-card, .dynamic-widget-card {
+      border-radius: 0 !important;
+      background: linear-gradient(to bottom, #e6f3ff, #ffffff) !important;
+    }
+
+    .social-redirect-view__container, .wallet-no-access__container, .pending-signature__container, .pending-connect__container {
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
+      margin-top: -15%;
     }
 
     .footer-options-switcher__container {
@@ -70,6 +80,10 @@ export default function RootLayout({ children }) {
       bottom: 0 !important;
       left: 0 !important;
       right: 0 !important;
+    }
+
+    .dynamic-user-profile-layout {
+      height: 90vh !important;
     }
 
     .dynamic-footer, .tos-and-pp__footer {

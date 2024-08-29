@@ -36,7 +36,7 @@ export default function ClientWrapper({ children }) {
                 onClick={handleLogin}
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
-                Open Dynamic Widget
+                Open Dynamic Sidebar Widget
               </button>
             )}
           </div>
@@ -64,11 +64,11 @@ export default function ClientWrapper({ children }) {
                     onClick={handleLogin}
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
-                    Open Dynamic Widget
+                    Open Dynamic Sidebar Widget
                   </button>
                 )}
                 <a
-                  href="https://docs.dynamic.xyz/docs/sidebar-widget"
+                  href="https://www.dynamic.xyz/blog/sidebar-widgets"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50"
