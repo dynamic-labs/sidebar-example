@@ -11,7 +11,7 @@ export const metadata = {
     description: "Experience the future of Web3 interactions with Dynamic's sleek Sidebar Widget. Seamlessly integrate wallet functionality into your website.",
     images: [
       {
-        url: "https://dynamic.xyz/images/og-image.jpg",
+        url: "https://cdn.prod.website-files.com/626692727bba3f384e008e8a/653900afcd3d30a612147826_Dynamic.jpg",
         width: 1200,
         height: 630,
         alt: "Dynamic Sidebar Widget Demo",
@@ -23,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Dynamic Sidebar Widget Demo",
     description: "Experience the future of Web3 interactions with Dynamic's sleek Sidebar Widget. Seamlessly integrate wallet functionality into your website.",
-    images: ["https://dynamic.xyz/images/og-image.jpg"],
+    images: ["https://cdn.prod.website-files.com/626692727bba3f384e008e8a/653900afcd3d30a612147826_Dynamic.jpg"],
     creator: "@dynamic_xyz",
   },
 };
